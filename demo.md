@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: "academic"
+theme: "academic-omemoji"
 paginate: true
 math: katex
 ---
