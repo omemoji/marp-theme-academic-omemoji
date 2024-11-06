@@ -1,30 +1,26 @@
 ---
 marp: true
-theme: academic
+theme: "academic"
 paginate: true
 math: katex
 ---
 
 <!-- _class: lead -->
 
-# Marpで研究室の発表スライドを作る
-
-#### 〜Beamerを卒業しよう〜
+# My Marp Theme
 
 <br>
 
-**著者 太郎**
-ほげほげ研究室 M2
-YYYY/MM/DD
+**omemoji**
 
 ---
 
 <!-- _header: 目次 -->
 
 1. はじめに
-1. コードブロック
-1. 数式
-1. 図
+2. コードブロック
+3. 数式
+4. 図
 
 ---
 
@@ -63,7 +59,7 @@ tokenizer.convert_ids_to_tokens(outputs.logits[0][1:-1].argmax(axis=-1))
 
 <!-- _header: 数式 -->
 
-$$ I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx $$
+$$ I\_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx $$
 
 $$
 f(x) = \int_{-\infty}^\infty
